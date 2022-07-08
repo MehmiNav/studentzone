@@ -1,0 +1,179 @@
+/*Start Header CSS*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: open sans;
+}
+.main-header {
+	width: 100%;
+	display: flex;
+	background-color: #000;
+}
+.zone {
+	color: #183c28;
+	text-decoration: underline;
+}
+.logo {
+	flex: 1;
+}
+.title {
+	flex: 1;
+	margin: auto;
+}
+.navigation-bar {
+	flex: 1;
+}
+.list-items {
+	display: flex;
+	margin-top:47px;
+}
+.img1 {
+	width: 130px;
+	height: 100px;
+	flex: 1;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.atag {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-size: 19px;
+	margin-left: 10px;
+	transition: 0.3s ease;
+}
+.atag:hover {
+	color: #183c28;
+}
+.site-title {
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 40px;
+	font-family: montserrat;
+}
+/*End Header CSS*/
+
+/*body css starts*/
+.body-background {
+	position: relative;
+}
+.form-bg {
+	margin: 30px 0 30px 0;
+	padding: 0;
+	width: 100%;
+	height: 610px;
+}
+.main-form {
+	position: absolute;
+	top: 70px;
+	left: 35%;
+	width: 30%;
+	margin: 60px auto 60px auto;
+	padding:50px 40px;
+	background-color: #fff;
+}
+
+input[type="email"],
+input[type="password"] {
+	box-sizing:border-box;
+	width:100%;
+	padding:15px;
+	margin:5px 0 15px 0;
+	border:0.5px solid #f1f1f1;
+}
+
+input[type="submit"]{
+	box-sizing:border-box;
+	width:100%;
+	padding:10px;
+	color:#fff;
+	background-color:#183c28;
+	border:none;
+	cursor:pointer;
+}
+
+.log-in {
+	color:#162b1b;
+	opacity:0.9;
+	text-align:center;
+	padding:10px;
+	padding-top:0;
+}
+
+form label {
+	opacity:0.8;
+	padding-bottom:10px;
+	font-weight:600;
+}
+/*Body css ends*/
+
+/*FOOTER STARTS*/
+img {
+	padding: 0;
+	margin: 0;
+	margin-left: 90px;
+	width: 90px;
+	height: 79px;
+}
+.home {
+	margin-top: 30px;
+}
+.zone {
+	color: #183c28;
+	text-decoration: underline;
+}
+.footer-title {
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+	font-size: 135%;
+	margin-left: 75px;
+}
+h2 {
+	color: #183c28;
+	padding: 20px;
+	margin-left: 20px;
+	font-size: 150%;
+}
+p {
+	color: #fff;
+	padding: 10px;
+	margin-left: 33px;
+	font-size: 17px;
+}
+.fatag {
+	text-decoration: none;
+	color: #fff;
+	padding: 3px;
+	font-size: 18px;
+}
+.fatag:hover {
+	font-weight: bold;
+}
+ul {
+	list-style: none;
+}
+.litems {
+	margin-top: 9px;
+}
+.footer {
+	display: flex;
+	align-items: flex-start;
+	height: 400px;
+	background-color: #000;
+}
+.ftr {
+	flex: 1;
+}
+.logoandtitle {
+	margin-top: 50px;
+}
+.copyright {
+	box-sizing: border-box;
+	margin: 0;
+	font-size: 90%;
+	margin-top: 10px;
+	opacity: 0.7;
+}
+/*FOOTER ENDS*/
